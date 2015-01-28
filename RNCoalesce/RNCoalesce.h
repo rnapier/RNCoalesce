@@ -9,23 +9,22 @@
 #import <Foundation/Foundation.h>
 
 /*
- Configure this object by providing it a block, a queue and a timeout.
- Once you call `fireWhenExpired`, the object is "armed." As long as you
- keep calling `fireWhenExpired` before the timeout, it will keep delaying.
+ Configure this object by providing it a block and a timeout. Once you
+ call `fireWhenExpired`, the object is "armed." As long as you keep
+ calling `fireWhenExpired` before the timeout, it will keep delaying.
  When the timer expires, it will execute the block.
 
  After firing, it will not fire again until `fireWhenExpired` is called,
  and the timer expires.
 
- If this object is deallocated while a fire event is pending, it will
- immediately fire block before deallocating. (This object does not
- self-retain.)
+ While this object is armed, it self-retains until it fires. So if you
+ release this object, and it would otherwise be deallocated, it will
+ still perform the block after the timeout and then deallocate.
  */
 
 
 @interface RNCoalesce : NSObject
 - (instancetype)initWithTimeout:(NSTimeInterval)timeout
-                          queue:(dispatch_queue_t)queue
                           block:(dispatch_block_t)block;
 - (void)fireWhenExpired;
 
