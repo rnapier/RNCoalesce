@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBB243A01A7921A600C2F5CE /* RNCoalesce.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FBB2439F1A7921A600C2F5CE /* RNCoalesce.h */; };
+		FBB243A21A7921A600C2F5CE /* RNCoalesce.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB243A11A7921A600C2F5CE /* RNCoalesce.m */; };
+		FBB243A81A7921A600C2F5CE /* libRNCoalesce.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB2439C1A7921A600C2F5CE /* libRNCoalesce.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBB243A91A7921A600C2F5CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBB243941A7921A600C2F5CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBB2439B1A7921A600C2F5CE;
+			remoteInfo = RNCoalesce;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FBB2439A1A7921A600C2F5CE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				FBB243A01A7921A600C2F5CE /* RNCoalesce.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FBB2439C1A7921A600C2F5CE /* libRNCoalesce.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNCoalesce.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB2439F1A7921A600C2F5CE /* RNCoalesce.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNCoalesce.h; sourceTree = "<group>"; };
+		FBB243A11A7921A600C2F5CE /* RNCoalesce.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNCoalesce.m; sourceTree = "<group>"; };
+		FBB243A71A7921A600C2F5CE /* RNCoalesceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNCoalesceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB243AD1A7921A600C2F5CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBB243991A7921A600C2F5CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB243A41A7921A600C2F5CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB243A81A7921A600C2F5CE /* libRNCoalesce.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBB243931A7921A600C2F5CE = {
+			isa = PBXGroup;
+			children = (
+				FBB2439E1A7921A600C2F5CE /* RNCoalesce */,
+				FBB243AB1A7921A600C2F5CE /* RNCoalesceTests */,
+				FBB2439D1A7921A600C2F5CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBB2439D1A7921A600C2F5CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBB2439C1A7921A600C2F5CE /* libRNCoalesce.a */,
+				FBB243A71A7921A600C2F5CE /* RNCoalesceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBB2439E1A7921A600C2F5CE /* RNCoalesce */ = {
+			isa = PBXGroup;
+			children = (
+				FBB2439F1A7921A600C2F5CE /* RNCoalesce.h */,
+				FBB243A11A7921A600C2F5CE /* RNCoalesce.m */,
+			);
+			path = RNCoalesce;
+			sourceTree = "<group>";
+		};
+		FBB243AB1A7921A600C2F5CE /* RNCoalesceTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBB243AC1A7921A600C2F5CE /* Supporting Files */,
+			);
+			path = RNCoalesceTests;
+			sourceTree = "<group>";
+		};
+		FBB243AC1A7921A600C2F5CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBB243AD1A7921A600C2F5CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBB2439B1A7921A600C2F5CE /* RNCoalesce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBB243B01A7921A600C2F5CE /* Build configuration list for PBXNativeTarget "RNCoalesce" */;
+			buildPhases = (
+				FBB243981A7921A600C2F5CE /* Sources */,
+				FBB243991A7921A600C2F5CE /* Frameworks */,
+				FBB2439A1A7921A600C2F5CE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNCoalesce;
+			productName = RNCoalesce;
+			productReference = FBB2439C1A7921A600C2F5CE /* libRNCoalesce.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FBB243A61A7921A600C2F5CE /* RNCoalesceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBB243B31A7921A600C2F5CE /* Build configuration list for PBXNativeTarget "RNCoalesceTests" */;
+			buildPhases = (
+				FBB243A31A7921A600C2F5CE /* Sources */,
+				FBB243A41A7921A600C2F5CE /* Frameworks */,
+				FBB243A51A7921A600C2F5CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBB243AA1A7921A600C2F5CE /* PBXTargetDependency */,
+			);
+			name = RNCoalesceTests;
+			productName = RNCoalesceTests;
+			productReference = FBB243A71A7921A600C2F5CE /* RNCoalesceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBB243941A7921A600C2F5CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Rob Napier";
+				TargetAttributes = {
+					FBB2439B1A7921A600C2F5CE = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					FBB243A61A7921A600C2F5CE = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = FBB243971A7921A600C2F5CE /* Build configuration list for PBXProject "RNCoalesce" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBB243931A7921A600C2F5CE;
+			productRefGroup = FBB2439D1A7921A600C2F5CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBB2439B1A7921A600C2F5CE /* RNCoalesce */,
+				FBB243A61A7921A600C2F5CE /* RNCoalesceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBB243A51A7921A600C2F5CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBB243981A7921A600C2F5CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB243A21A7921A600C2F5CE /* RNCoalesce.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBB243A31A7921A600C2F5CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBB243AA1A7921A600C2F5CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBB2439B1A7921A600C2F5CE /* RNCoalesce */;
+			targetProxy = FBB243A91A7921A600C2F5CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FBB243AE1A7921A600C2F5CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBB243AF1A7921A600C2F5CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBB243B11A7921A600C2F5CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FBB243B21A7921A600C2F5CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FBB243B41A7921A600C2F5CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RNCoalesceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBB243B51A7921A600C2F5CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RNCoalesceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBB243971A7921A600C2F5CE /* Build configuration list for PBXProject "RNCoalesce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB243AE1A7921A600C2F5CE /* Debug */,
+				FBB243AF1A7921A600C2F5CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBB243B01A7921A600C2F5CE /* Build configuration list for PBXNativeTarget "RNCoalesce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB243B11A7921A600C2F5CE /* Debug */,
+				FBB243B21A7921A600C2F5CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBB243B31A7921A600C2F5CE /* Build configuration list for PBXNativeTarget "RNCoalesceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB243B41A7921A600C2F5CE /* Debug */,
+				FBB243B51A7921A600C2F5CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBB243941A7921A600C2F5CE /* Project object */;
+}
