@@ -10,6 +10,7 @@
 		FBB243A01A7921A600C2F5CE /* RNCoalesce.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FBB2439F1A7921A600C2F5CE /* RNCoalesce.h */; };
 		FBB243A21A7921A600C2F5CE /* RNCoalesce.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB243A11A7921A600C2F5CE /* RNCoalesce.m */; };
 		FBB243A81A7921A600C2F5CE /* libRNCoalesce.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB2439C1A7921A600C2F5CE /* libRNCoalesce.a */; };
+		FBB243B71A7926F000C2F5CE /* RNCoalesceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB243B61A7926F000C2F5CE /* RNCoalesceTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		FBB243A11A7921A600C2F5CE /* RNCoalesce.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNCoalesce.m; sourceTree = "<group>"; };
 		FBB243A71A7921A600C2F5CE /* RNCoalesceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNCoalesceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB243AD1A7921A600C2F5CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBB243B61A7926F000C2F5CE /* RNCoalesceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCoalesceTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				FBB243AC1A7921A600C2F5CE /* Supporting Files */,
+				FBB243B61A7926F000C2F5CE /* RNCoalesceTest.m */,
 			);
 			path = RNCoalesceTests;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBB243B71A7926F000C2F5CE /* RNCoalesceTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
